@@ -1,0 +1,19 @@
+{
+  "name": "adderservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no test specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": "Felix E. Eyetan",
+  "license": "ISC",
+  "dependencies": {
+    "net-object-stream": "^2.1.0",
+    "restify": "^8.4.0"
+  },
+  "devDependencies": {
+    "tap": "^14.7.2"
+  }
+}

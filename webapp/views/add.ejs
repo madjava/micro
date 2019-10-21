@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+    <% include ./partials/nav %>
+    <h1>Add it up!</h1>
+    <form action="/add/calculate" method="post" id="calc-form">
+        <input type="text" name="first" id="first" value="<%= first %>">
+        <input type="text" name="second" id="second" value="<%= second %>">
+    </form>
+    <button type="submit" form="calc-form" value="Submit">Submit</button>
+    <h2>Result = <%= result %></h2>
+</body>
+</html>
