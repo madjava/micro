@@ -1,16 +1,16 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: adderservice
-spec:   
+  name: _NAME_
+spec:
   replicas: 1
   template:
     metadata:
       labels:
-        run: adderservice
+        run: _NAME_
     spec:
       containers:
-      - name: adderservice
-        image: madjava/adderservice
+      - name: _NAME_
+        image: _IMAGE_
         ports:
-        - containerPort: 8081
+        - containerPort: _PORT_
